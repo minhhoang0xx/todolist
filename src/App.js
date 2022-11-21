@@ -74,7 +74,7 @@ function App() {
         }
       }}>{isEditting ? 'Edit' : 'Add'}</button>
 
-      <p className='p'> you have {show.length} pending items </p>
+      <p className='p'>You have {show.length} pending items </p>
 
       {show.map((item, index) => {
         return (
